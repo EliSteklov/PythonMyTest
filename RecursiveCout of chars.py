@@ -29,11 +29,20 @@
 
 # Ductionary Ex 2
 ##################################
-keys = ['red', 'green', 'blue']
-val = ['#FF0000','#008000', '#0000FF']
-d2={}
-for key in  keys:
-    d2[key]=val.pop()
-  for key , value  in d2.items():
-       print(key, value)
+# keys = ['red', 'green', 'blue']
+# val = ['#FF0000','#008000', '#0000FF']
+# d2={}
+# for key in  keys:
+#     d2[key]=val.pop()
+#   for key , value  in d2.items():
+#        print(key, value)
+##################################
+
+# Lists Ex 1
+##################################
+x = [10, 20, 30]
+y = [40, 50, 60]
+
+y = y + x
+print(y)
 ##################################
